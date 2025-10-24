@@ -1,0 +1,46 @@
+1. Console output:
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 795 bytes | 795.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/DCable24/assignment2.git
+   f4975e5..1e76878  master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+2. How many commits have been done so far?
+Command used: git rev-list --count HEAD
+Answer: 9
+
+3. When was the README.md file modified last?
+Command used: git log -- README.md
+Answer: Fri Oct 24 13:13:54 2025 -0500
+
+4. Two reasons branches are used:
+To isolate development of new features and safely test or fix bugs without affecting the main.
+
+5. Difference between git log and git status:
+git log shows commit history, while git status shows current working tree changes.
+
+6. Command to see commits where “Vehicle.h” was committed:
+git log --follow -- Vehicle.h
+
+7. Command to see commits with “file” in the commit message:
+git log --grep="file"
+
+8. context of object-oriented programming:
+Inheritance allows one class to use properties/methods of another. Polymorphism – allows different objects to be treated as the same type with different behavior. Encapsulation – restricts direct access to object data and methods to protect integrity.
+
+9. Difference between “Dictator and Lieutenants” and “Integration Manager” workflows:
+Integration Manager workflow allows each person to push/pull from the needed repositories, while Dictator and Lieutenants only the "Dictator" can push and handles the merges of his "Lieutenants" who only merge changes for some developers
+
+10. Why a team of 100 benefits from Dictator and Lieutenants over Centralized:
+Dictator and Lieutenants scales better by dividing integration work among lieutenants and reduces merge conflicts/bottlenecks.
+
+Date went through Git Lab Tutorials:
+10/24/2025
+Date setup the GitHub Account:
+10/24/2025
