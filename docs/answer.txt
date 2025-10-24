@@ -1,3 +1,8 @@
+Date went through Git Lab Tutorials:
+10/24/2025
+Date setup the GitHub Account:
+10/24/2025
+
 1. Console output:
 Enumerating objects: 9, done.
 Counting objects: 100% (9/9), done.
@@ -39,8 +44,3 @@ Integration Manager workflow allows each person to push/pull from the needed rep
 
 10. Why a team of 100 benefits from Dictator and Lieutenants over Centralized:
 Dictator and Lieutenants scales better by dividing integration work among lieutenants and reduces merge conflicts/bottlenecks.
-
-Date went through Git Lab Tutorials:
-10/24/2025
-Date setup the GitHub Account:
-10/24/2025
